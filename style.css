@@ -1,0 +1,71 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-image:url(Downloads.jpg );
+    background-size: cover;
+    background-position: center;
+    
+
+    
+}
+.overlay  .a{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: white;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .overlay  .b{
+        top: 60%;
+        left: 50%;
+        position: absolute;
+        color:white;
+        transform: translate(-50%,-50%);
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .overlay  .c{
+            top: 65%;
+            left: 50%;
+            position: absolute;
+            color:white;
+            transform: translate(-50%,-50%);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 10px;
+            font-weight: 800;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .overlay  .d{
+                top: 90%;
+                left: 70%;
+                position: absolute;
+                color:white;
+                transform: translate(-50%,-50%);
+                text-transform: uppercase;
+                letter-spacing: 10px;
+                font-size: 15px;
+                font-weight: 800;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                }
